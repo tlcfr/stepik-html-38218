@@ -1,0 +1,145 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #007765;
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  font-size: 32px;
+  color: #000;
+}
+
+a {
+  display: contents;
+}
+
+#jumbotron, #problem, #ppc, #team {
+  padding-top: 85px;
+  margin-top: -85px;
+}
+
+.content-container {
+  max-width: 1219px;
+  box-sizing: border-box;
+  padding: 55px;
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #007765;
+  padding: 20px 0;
+}
+
+.header > .content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px;
+}
+
+.piedpiper-logo {
+  width: 184px;
+  height: 45px;
+}
+
+.links {
+  margin: auto 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url("../images/piedpiper/background/jumbotron.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 160px 0;
+}
+
+.jumbotron-message {
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero {
+  background-image: url("../images/piedpiper/background/hero.png");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.hero-message {
+  font-style: italic;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.ppc {
+  background-color: #fff;
+}
+
+.ppc-logo {
+  float: left;
+  margin-right: 50px;
+  width: 115px;
+  height: 115px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member > img {
+  width: 168px;
+  height: 168px;
+}
+
+.member-name {
+  margin: 12px 0 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #007765;
+}
+
+.member-role {
+  font-size: 18px;
+  font-style: italic;
+  color: #000;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.footer > .content-container {
+  max-width: 540px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
